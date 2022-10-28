@@ -17,7 +17,7 @@ public class BankAccount {
         this.setBalance(this.getBalance() - amount);
     }
 	
-    public double getBalance() {
+   	public double getBalance() {
         return balance;
     }
     

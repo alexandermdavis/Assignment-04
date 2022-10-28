@@ -10,7 +10,7 @@ private double annualInterestRate;
 
 	public void depositMonthlyInterest() {
 		super.deposit(annualInterestRate * super.getBalance());
-    }
+	}
     
 	public void withdraw(double amount) {
     	if(amount > super.getBalance()) {
@@ -20,7 +20,7 @@ private double annualInterestRate;
 			
 		}
     	setBalance(super.getBalance() - amount);
-    }
+	}
     
 	public void displaySavingsAcc() {
 	System.out.println("Owner: " + this.getOwner());

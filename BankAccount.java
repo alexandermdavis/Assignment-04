@@ -11,15 +11,15 @@ public class BankAccount {
 	
 	public void deposit(double amount) {
         this.setBalance(this.getBalance() + amount);
-    }
+   	}
 	
 	public void withdraw(double amount) {
         this.setBalance(this.getBalance() - amount);
-    }
+    	}
 	
    	public double getBalance() {
         return balance;
-    }
+    	}
     
 	public void setBalance(double balance) {
 		this.balance = balance;
